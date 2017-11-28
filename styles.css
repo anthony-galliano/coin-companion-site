@@ -16,10 +16,18 @@
     }
 }
 
-.mock {
-    width: 377px;
-    height: 767px;
-    object-fit: cover;
+@media (min-width: 768px) {
+    .mock-img {
+        width: 377px;
+        height: 767px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    .mock-img {
+        width: 90%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -81,6 +89,7 @@ footer {
     .responsive-flex {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
 
