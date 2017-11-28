@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed);
+
+body {
+    background-color: #202B37;
+    color: #FFFFFF;
+}
+
+.under_construction {
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 100px;
+}
